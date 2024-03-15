@@ -5,8 +5,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:sqflite/sqflite.dart';
 
-import '../shared/components/components.dart';
-import '../shared/cubit/cubit.dart';
+import '../../shared/components/components.dart';
+import '../../shared/cubit/cubit.dart';
 
 class HomeLayout extends StatelessWidget {
   var scaffoldKey = GlobalKey<ScaffoldState>();
